@@ -1,0 +1,24 @@
+# Environment variables (keep your API keys secret!)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# FAISS index (if saved to disk)
+*.index
+faiss_store/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
